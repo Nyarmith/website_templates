@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif, Arial;
+}
+
+/*the . selects classes, so here I am specifying any element with the header class*/
+.header {
+	padding: 2vh 2vw 2vh 2vw;
+	background-color: #191919;
+	color: DDDDFF;
+}
+
+/*without any special characters we just select html elements*/
+body{
+	background-color: #ECECEA; /*white*/
+}
+
+nav{
+	margin: 1vh 2vw 1vh 2vw;
+	background-color: #191919;
+}
+
+li {
+	display:inline;
+	padding: 0 1.5em 0 0;
+}
+
+article {
+	margin: 0 10vw 0 10vw;
+	background-color: #CED4DB; /*almost white*/
+	border-left: dotted lightblue;
+	border-right: dotted lightblue;
+}
+
+section{
+	padding: 2vh 1vw 2vh 1vw;
+	border-bottom: groove lightblue;
+}
+
+/*select h3 when used in section*/
+section h3{
+	margin: 0 1vw 0 1vw;
+	color: #232323;
+}
+section p{
+	margin: 0 1vw 0 1vw;
+	color: #232323;
+}
+
+footer{
+	margin: 0vh 0vw 0vh 0vw;
+	padding: 2vh 10vw auto 10vw;
+	font-size: 10px;
+	background-color: #292929; 
+}
+
+a{
+	text-decoration: none;
+	color: DDDDFF;
+}
+a:hover{
+	color: #FFF279;
+}
